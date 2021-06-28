@@ -4,6 +4,7 @@ class Point {
     this.y = y;
   }
 
+//  class method with "static" keyword
   static distance(a, b) {
     const dx = a.x - b.x;
     const dy = a.y - b.y;

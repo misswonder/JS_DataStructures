@@ -26,6 +26,8 @@ class Student {
     });
     return sum / this.scores.length;
   }
+
+//  class method with "static" keyword
   static EnrollStudents() {
     return "ENROLLING STUDENTS!";
   }
